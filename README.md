@@ -256,22 +256,12 @@ GITHUB_TOKEN=
 COOKIE_SECURE=0
 ```
 
-Get a Groq API key from the [Groq Console](https://console.groq.com/).
-
-**Keep your API key private. Never commit your `.env` file or expose API keys in frontend code.**
-
-### 5. Start the application
-
-```bash
-uvicorn app:app --reload
-```
-
-### 6. Open BaySkills
+ Open BaySkills
 
 Visit:
 
 ```text
-http://127.0.0.1:8000
+Bayskills.onrender.com
 ```
 
 Create an account to start using the platform.
