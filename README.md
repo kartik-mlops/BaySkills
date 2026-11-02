@@ -8,31 +8,37 @@
 
 <p align="center">
   <a href="https://bayskills.onrender.com">
-    <strong>🌐 EXPLORE LIVE WEBSITE</strong>
+    <img src="https://img.shields.io/badge/🌐_VISIT-BAYSKILLS-0088CC?style=for-the-badge" alt="Visit BaySkills"/>
   </a>
+</p>
+
+<p align="center">
+  <strong>AI • Career Development • Skill Assessment • Learning</strong>
 </p>
 
 ---
 
-## About BaySkills
+## About the Project
 
-**BaySkills** is an AI-powered career development platform designed to help students and aspiring professionals identify skill gaps, explore career paths, build technical skills, and prepare for employment opportunities.
+**BaySkills** is an AI-powered career development platform designed to help students and aspiring professionals identify skill gaps, explore career paths, develop technical skills, and prepare for real-world employment opportunities.
 
-The platform brings together AI-based skill analysis, interactive career roadmaps, mock assessments, personalized learning resources, and job discovery into one integrated environment.
+The platform brings together AI-driven skill analysis, interactive career flowcharts, personalized learning roadmaps, mock assessments, and job vacancy discovery into one integrated environment.
 
-Its goal is to transform career preparation from an unstructured process into a guided, measurable, and practical experience.
+Instead of navigating multiple platforms for career planning and preparation, users can access essential career development tools through a single platform.
+
+**Our vision is to bridge the gap between academic learning and industry requirements.**
 
 ---
 
-## Platform Workflow & Functionality
+## Platform Workflow
 
-The following flowchart illustrates how users interact with BaySkills and how its different modules contribute to career development.
+The following flowchart illustrates the major functionalities of BaySkills and how they work together to guide users towards their career goals.
 
 ```mermaid
 flowchart TD
     A(["🚀 BaySkills Platform"]) --> B["User Registration / Login"]
     B --> C["Personal Dashboard"]
-    
+
     C --> D["AI Skill Gap Analysis"]
     C --> E["Career Path Explorer"]
     C --> F["BayMax AI Assistant"]
@@ -49,7 +55,7 @@ flowchart TD
     J --> N["Learn & Practice"]
     M --> N
 
-    N --> O["Mock Test & Assessments"]
+    N --> O["Mock Tests & Assessments"]
     O --> P["Performance Evaluation"]
     P --> Q["Grades & Progress Tracking"]
 
@@ -70,92 +76,135 @@ flowchart TD
     style F fill:#6b55a5,color:#fff,stroke:#6b55a5
 ```
 
-## Core Features
+---
 
-### 1. AI Skill Gap Analysis
-- Analyze existing skills against selected career roles.
-- Identify missing technical and professional skills.
-- Generate a career readiness score.
-- Provide personalized improvement recommendations.
+## Key Features
+
+### 1. AI-Powered Skill Gap Analysis
+- Evaluates existing skills against selected career roles.
+- Identifies missing technical and professional skills.
+- Generates a career readiness score.
+- Provides personalized improvement recommendations.
 
 ### 2. Interactive Career Flowcharts
-- Explore different career paths such as Data Scientist, Web Developer and other technical roles.
-- Understand the skills required for each profession.
+- Explore career paths such as Data Scientist, Web Developer and other technical professions.
+- Visualize the skills required for different career roles.
 - Navigate through interactive skill nodes.
 - Discover free YouTube courses and playlists for individual skills.
 
 ### 3. AI-Powered Mock Tests
 - Practice technical assessments.
-- Attempt questions across different topics.
-- View grades, scores and performance.
+- Attempt questions across different topics and difficulty levels.
+- Receive grades and performance evaluations.
 - Identify areas that require further improvement.
 
 ### 4. Personalized Learning Roadmaps
-- Follow structured learning paths.
-- Track skill development.
-- Connect learning resources with career objectives.
+- Follow structured, career-specific learning paths.
+- Understand the recommended learning sequence.
+- Track skill development and learning progress.
 
-### 5. Vacancy & Job Discovery
+### 5. Job & Vacancy Discovery
 - Explore relevant job opportunities.
-- Understand the skills employers require.
-- Compare personal skills with vacancy requirements.
-- Keep track of job applications.
+- Understand industry and employer skill requirements.
+- Compare existing skills with job requirements.
+- Track job applications.
 
 ### 6. BayMax AI Assistant
-- AI-powered assistance within the platform.
+- AI-powered assistance integrated into the platform.
 - Support for career exploration and skill development.
 - Interactive assistant experience.
 
 ### 7. GitHub Profile Integration
-- Connect GitHub profile information.
-- Use available development activity and repositories as supporting information for skill assessment.
+- Access GitHub profile information.
+- Use available repositories and development activity as supporting information for skill analysis.
+
+### 8. Interactive User Dashboard
+- Centralized access to career development tools.
+- View learning and assessment progress.
+- Manage career preparation activities.
 
 ---
 
 ## Technology Stack
 
-| Layer | Technologies |
+| Category | Technologies |
 |---|---|
-| Frontend | HTML, CSS, JavaScript |
+| Frontend | HTML5, CSS3, JavaScript |
 | Backend | Python, FastAPI |
 | AI Integration | Groq API |
 | Database | SQLite |
 | 3D Graphics | Three.js, WebGL |
-| External APIs | GitHub, YouTube, Job APIs |
+| External APIs | GitHub API, YouTube API, Job APIs |
 | Deployment | Render |
 | Version Control | Git, GitHub |
 
 ---
 
-## Project Objectives
+## Project Architecture
 
-- Make career planning more accessible to students.
-- Bridge the gap between academic learning and industry requirements.
-- Help users identify and improve missing technical skills.
-- Provide structured career-specific learning pathways.
-- Encourage practical learning through assessments.
-- Connect skill development with real-world employment opportunities.
+BaySkills follows a client-server architecture that connects its frontend, backend, database, AI services, and external APIs.
+
+```mermaid
+flowchart TD
+    A["User"] --> B["Frontend<br/>HTML, CSS, JavaScript"]
+    B --> C["FastAPI Backend"]
+    C --> D[("SQLite Database")]
+    C --> E["Groq AI Services"]
+    C --> F["GitHub API"]
+    C --> G["YouTube API"]
+    C --> H["Job APIs"]
+    C --> B
+    B --> I["Interactive 3D Experience<br/>Three.js"]
+```
 
 ---
 
-## Live Project
+## Project Objectives
+
+- Simplify career planning and skill development.
+- Bridge the gap between academic education and industry expectations.
+- Help students identify and improve missing technical skills.
+- Provide structured and career-specific learning pathways.
+- Encourage practical learning through assessments.
+- Connect learning progress with real-world employment opportunities.
+- Make career preparation more accessible and organized.
+
+---
+
+## Live Deployment
 
 <p align="center">
   <a href="https://bayskills.onrender.com">
-    <img src="https://img.shields.io/badge/Visit-BaySkills-blue?style=for-the-badge&logo=render" alt="Visit BaySkills"/>
+    <img src="https://img.shields.io/badge/OPEN_LIVE_PROJECT-BaySkills-0088CC?style=for-the-badge&logo=render&logoColor=white" alt="Open Live Project"/>
   </a>
 </p>
 
-**Website:** https://bayskills.onrender.com
+**Live Website:** https://bayskills.onrender.com
 
-**Project:** BaySkills — AI-Powered Career & Skill Development Platform
+**Hosting Platform:** Render
+
+---
+
+## Team ByteBuilders
+
+<p align="center">
+  <strong>Designed and developed by Team ByteBuilders</strong>
+</p>
+
+| Team Member | Role |
+|---|---|
+| **Kartik** | Development |
+| **Krishna** | Development |
+| **Ayush** | Development |
 
 ---
 
 <p align="center">
-  <img src="static/bayskills-logo.png" width="65" alt="BaySkills"/>
+  <img src="static/bayskills-logo.png" alt="BaySkills" width="75"/>
   <br/>
-  <strong>BaySkills</strong>
-  <br/>
+  <strong>TEAM BYTEBUILDERS</strong>
+  <br/><br/>
   <i>Learn. Build. Assess. Grow.</i>
+  <br/><br/>
+  <a href="https://bayskills.onrender.com">Explore BaySkills</a>
 </p>
